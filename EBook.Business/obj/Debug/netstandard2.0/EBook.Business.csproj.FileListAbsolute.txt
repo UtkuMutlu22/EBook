@@ -1,0 +1,16 @@
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.Business.deps.json
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.Business.dll
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.Business.pdb
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.DataAccess.dll
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.Entities.dll
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.DataAccess.pdb
+C:\Users\utkum\source\repos\EBook\EBook.Business\bin\Debug\netstandard2.0\EBook.Entities.pdb
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.csprojAssemblyReference.cache
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.AssemblyInfoInputs.cache
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.AssemblyInfo.cs
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.csproj.CoreCompileInputs.cache
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.csproj.CopyComplete
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.dll
+C:\Users\utkum\source\repos\EBook\EBook.Business\obj\Debug\netstandard2.0\EBook.Business.pdb
