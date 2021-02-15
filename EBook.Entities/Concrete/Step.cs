@@ -8,6 +8,6 @@ namespace EBook.Entities.Concrete
     public class Step:IEntity
     {
         public int StepId { get; set; }
-        public int StepName { get; set; }
+        public string StepName { get; set; }
     }
 }

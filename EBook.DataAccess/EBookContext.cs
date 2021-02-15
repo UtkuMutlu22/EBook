@@ -15,9 +15,10 @@ namespace EBook.DataAccess
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<Classes> Classes { get; set; }
-        public DbSet<Constulant> Constulants { get; set; }
+        public DbSet<Group> Groups { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Step> Steps { get; set; }
+        
         public DbSet<Student> Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
     }

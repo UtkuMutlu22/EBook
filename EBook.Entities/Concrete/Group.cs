@@ -1,16 +1,13 @@
 ﻿using Core.Entities;
-using Core.Utilities.Results;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EBook.Entities.Concrete
 {
-    public class Constulant:Teacher,IEntity
+    public class Group:IEntity
     {
-        public int ConculantId { get; set; }
-        
-       
-
+        public int GroupId { get; set; }
+        public string GroupName { get; set; }
     }
 }

@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EBook.Business", "EBook.Bus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\..\..\Documents\Kamp Dersleri\FinalProject\Core\Core.csproj", "{36FB162E-8E18-4551-A570-897B4A89818A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9A1E83A3-8480-4408-AACA-BC3B9E27D918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9A1E83A3-8480-4408-AACA-BC3B9E27D918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

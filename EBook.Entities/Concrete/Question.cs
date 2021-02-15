@@ -11,8 +11,8 @@ namespace EBook.Entities.Concrete
         public int BookId { get; set; }
         public string QuestionText { get; set; }
         public string QuestionAnswer { get; set; }
-        public string Audio { get; set; }
-        public string Video { get; set; }
-        public string Pictures { get; set; }
+        public string QuestionAudio { get; set; }
+        public string QuestionVideo { get; set; }
+        public string QuestionPicture { get; set; }
     }
 }

@@ -17,32 +17,32 @@ namespace EBook.Business.Concrete
             _studentDal = studentDal;
         }
 
-        public IResult Add(Student student)
+        public IResult Add(Question question)
         {
-            _studentDal.Add(student);
+            _studentDal.Add(question);
             return new SuccessResult();
         }
 
-        public IResult Delete(Student student)
+        public IResult Delete(Question question)
         {
-            _studentDal.Delete(student);
+            _studentDal.Delete(question);
             return new SuccessResult();
         }
 
-        public IDataResult<Student> Get(int studentId)
+        public IDataResult<Question> Get(int questionId)
         {
-            return new SuccessDataResult<Student>(_studentDal.Get(student=>student.StudentId==studentId));
+            return new SuccessDataResult<Question>(_studentDal.Get(student=>student.QuestionId==questionId));
 
         }
 
-        public IDataResult<List<Student>> GetAll()
+        public IDataResult<List<Question>> GetAll()
         {
-            return new SuccessDataResult<List<Student>>(_studentDal.GetAll());
+            return new SuccessDataResult<List<Question>>(_studentDal.GetAll());
         }
 
-        public IResult Update(Student student)
+        public IResult Update(Question question)
         {
-            _studentDal.Update(student);
+            _studentDal.Update(question);
             return new SuccessResult();
         }
     }

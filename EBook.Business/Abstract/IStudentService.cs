@@ -8,10 +8,10 @@ namespace EBook.Business.Abstract
 {
    public interface IStudentService
     {
-        IDataResult<List<Student>> GetAll();
-        IDataResult<Student> Get(int studentId);
-        IResult Add(Student student);
-        IResult Update(Student student);
-        IResult Delete(Student student);
+        IDataResult<List<Question>> GetAll();
+        IDataResult<Question> Get(int question);
+        IResult Add(Question question);
+        IResult Update(Question question);
+        IResult Delete(Question question);
     }
 }

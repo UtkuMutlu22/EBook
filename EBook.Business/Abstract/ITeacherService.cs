@@ -8,10 +8,11 @@ namespace EBook.Business.Abstract
 {
     public interface ITeacherService
     {
-        IDataResult<List<Teacher>> GetAll();
-        IDataResult<Teacher> Get(int teacherId);
-        IResult Add(Teacher teacher);
-        IResult Update(Teacher teacher);
-        IResult Delete(Teacher teacher);
+        IDataResult<List<Question>> GetAll();
+        IDataResult<List<StudentQuestion>> GetByStudentQuestion();
+        IDataResult<Question> Get(int questionId);
+        IResult Add(Question question);
+        IResult Update(Question question);
+        IResult Delete(Question question);
     }
 }
