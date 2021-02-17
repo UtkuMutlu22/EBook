@@ -9,5 +9,8 @@ namespace EBook.Entities.Concrete
     {
         public int TeacherId { get; set; }
         public string TeacherSpeciality { get; set; }
+        public int AnswerId { get; set; }
+        public int QuestionId { get; set; }
+        public int ContextId { get; set; }
     }
 }

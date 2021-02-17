@@ -7,10 +7,16 @@ namespace EBook.Entities.DTOs
 {
     public class AnswerDetail:IDto
     {
+        public int Id { get; set; }
         public string OwnerName { get; set; }
         public string QuestionText { get; set; }
-        public string QuestionVideo { get; set; }
-        public string QuestionAudio { get; set; }
-        public string QuestionPicture { get; set; }
+        public int QuestionVideo { get; set; }
+        public int QuestionAudio { get; set; }
+        public int QuestionPicture { get; set; }
+        public string AnswerText { get; set; }
+        public int AnswerVideo { get; set; }
+        public int AnswerAudio { get; set; }
+        public int AnswerPicture { get; set; }
+        public int RemakId { get; set; }
     }
 }

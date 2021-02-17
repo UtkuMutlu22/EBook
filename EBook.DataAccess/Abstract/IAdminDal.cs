@@ -7,7 +7,8 @@ using System.Text;
 
 namespace EBook.DataAccess.Abstract
 {
-    public interface IAdminDal:IEntityRepository<Admin>,IAnswerDal,IAudioDal,IBookDal,IContextDal,ICosulantDal,IPictureDal,IPriceDal,IQuestionDal,IRemakDal,IStudentDal,IStudentQuestionDal,ITeacherDal,IVideoDal
+    public interface IAdminDal : IEntityRepository<Admin>
     {
+      
     }
 }

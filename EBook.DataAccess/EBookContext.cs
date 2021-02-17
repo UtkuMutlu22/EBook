@@ -16,6 +16,7 @@ namespace EBook.DataAccess
         }
         public DbSet<Book> Books { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Admin> Admins { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Context> Contexts { get; set; }
         public DbSet<Student> Students { get; set; }

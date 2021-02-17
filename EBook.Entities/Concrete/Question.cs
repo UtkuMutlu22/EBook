@@ -9,7 +9,7 @@ namespace EBook.Entities.Concrete
     {
         public int QuestionId { get; set; }
         public int BookId { get; set; }
-        public int QuestionText { get; set; }
+        public string QuestionText { get; set; }
         public int QuestionAnswer { get; set; }
         public int QuestionAudio { get; set; }
         public int QuestionVideo { get; set; }

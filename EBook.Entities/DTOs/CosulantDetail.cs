@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EBook.Entities.DTOs
 {
-    public class ConsulantDetail:IDto
+    public class CosulantDetail:IDto
     {
         public string ConsulantName { get; set; }
         public string ConsulantLastName { get; set; }
