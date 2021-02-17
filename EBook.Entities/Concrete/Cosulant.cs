@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EBook.Entities.Concrete
 {
-    public class Cosulants:Teacher,IEntity
+    public class Cosulant:Teacher,IEntity
     {
         public int ConsulantId { get; set; }
     }

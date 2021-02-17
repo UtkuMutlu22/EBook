@@ -6,7 +6,7 @@ using System.Text;
 
 namespace EBook.DataAccess.Abstract
 {
-    public interface AdminQuestionDal:IEntityRepository<Question>
+    public interface IAudioDal:IEntityRepository<Audio>
     {
     }
 }
