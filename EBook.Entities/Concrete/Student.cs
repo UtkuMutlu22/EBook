@@ -9,10 +9,11 @@ namespace EBook.Entities.Concrete
 {
     public class Student:User,IEntity
     {
-    
-        public int TeacherId { get; set; }
-        public int StepId { get; set; }
-        public int GroupId { get; set; }
-        public bool Status { get; set; }
+
+        [Key]
+        public int StudentId { get; set; }
+        public int ConsulantTeacher { get; set; }
+
+
     }
 }

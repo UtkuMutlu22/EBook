@@ -7,13 +7,9 @@ namespace EBook.Entities.DTOs
 {
     public class TeacherDetail:IDto
     {
-        public string UserType { get; set; }
-        public bool Status { get; set; }
-        public string ClasName { get; set; }
-        public string GroupName { get; set; }
         public string TeacherName { get; set; }
-        public string TeacherLastName { get; set; }
-        public string ConsulantStudentName { get; set; }
-
+        public string StudentName { get; set; }
+        public string TeacherSpeciality { get; set; }
+        
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vbnnwo3AM0xSLs2FQRz/Yc09qTz9p2mpDRrqg4qnOS9JdyANWv8eMEUAQV7+Z4k6eZWzmYKAqiJx7fvRnMJIbQ==",
+  "dgSpecHash": "sDYINkzusQxHP+oOf+emGXVxe8KNAXyzaEtza6H8FmGL4DLePtFsl45FTwG97nHngPkEekdAbSxGczChZcUPvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\utkum\\source\\repos\\EBook\\EBook.Entities\\EBook.Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\utkum\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\utkum\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\utkum\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

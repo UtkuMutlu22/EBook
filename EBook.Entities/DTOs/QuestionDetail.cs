@@ -8,6 +8,5 @@ namespace EBook.Entities.DTOs
     public class QuestionDetail:IDto
     {
         public string BookName { get; set; }
-        //Dropdwon un içinde olacak
     }
 }

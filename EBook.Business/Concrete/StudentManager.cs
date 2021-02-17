@@ -1,7 +1,10 @@
-﻿using Core.Utilities.Results;
+﻿using EBook.Business.FluentValidationTool;
+using Core.Utilities.Results;
 using EBook.Business.Abstract;
+using EBook.Business.ValidationRules.FluentValidation;
 using EBook.DataAccess.Abstract;
 using EBook.Entities.Concrete;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -16,9 +19,10 @@ namespace EBook.Business.Concrete
         {
             _studentDal = studentDal;
         }
-
+        
         public IResult Add(Question question)
         {
+            ValidationTool.Validate(new StudentValidator(), question);
             _studentDal.Add(question);
             return new SuccessResult();
         }

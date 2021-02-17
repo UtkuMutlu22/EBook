@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3fPAx4LArjk7TARq8dVBSvoZ2LQhW16hT+JQ5/sA29CjYwZXP8kyVsVdnGEPjIYwki2DiKjEGeklcwgYGZHs3w==",
+  "dgSpecHash": "JBU+iivdkKeBLV1vx5KCnJ3BkXqqGImT6Uurb1oDY1VJeYgl/pmsaeqrqm1lNCeoyQLcuNDtaMhXfdr0lE2mXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\utkum\\source\\repos\\EBook\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\utkum\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\utkum\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\utkum\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

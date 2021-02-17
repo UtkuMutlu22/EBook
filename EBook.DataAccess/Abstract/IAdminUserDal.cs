@@ -1,12 +1,12 @@
 ﻿using Core.DataAccess;
-using EBook.Entities.Concrete;
+using EBook.Entities.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EBook.DataAccess.Abstract
 {
-   public interface IClassesDal:IEntityRepository<Classes>
+    public interface IAdminUserDal:IEntityRepository<User>
     {
     }
 }

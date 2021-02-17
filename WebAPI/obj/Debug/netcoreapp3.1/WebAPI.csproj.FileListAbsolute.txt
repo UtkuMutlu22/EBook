@@ -66,3 +66,4 @@ C:\Users\utkum\source\repos\EBook\WebAPI\bin\Debug\netcoreapp3.1\EBook.Business.
 C:\Users\utkum\source\repos\EBook\WebAPI\bin\Debug\netcoreapp3.1\EBook.DataAccess.pdb
 C:\Users\utkum\source\repos\EBook\WebAPI\bin\Debug\netcoreapp3.1\EBook.Entities.pdb
 C:\Users\utkum\source\repos\EBook\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\utkum\source\repos\EBook\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll

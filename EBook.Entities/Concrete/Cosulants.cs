@@ -5,9 +5,8 @@ using System.Text;
 
 namespace EBook.Entities.Concrete
 {
-    public class Group:IEntity
+    public class Cosulants:Teacher,IEntity
     {
-        public int GroupId { get; set; }
-        public string GroupName { get; set; }
+        public int ConsulantId { get; set; }
     }
 }

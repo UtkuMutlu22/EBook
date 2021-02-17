@@ -6,7 +6,7 @@ using System.Text;
 
 namespace EBook.DataAccess.Abstract
 {
-    public interface IStepDal:IEntityRepository<Step>
+    public interface AdminQuestionDal:IEntityRepository<Question>
     {
     }
 }
