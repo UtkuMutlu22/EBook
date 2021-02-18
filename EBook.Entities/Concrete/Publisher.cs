@@ -9,6 +9,7 @@ namespace EBook.Entities.Concrete
     {
 
         public int PublisherId { get; set; }
+        public int BookId { get; set; }
         public string PublisherName { get; set; }
         public int  PublisherCity { get; set; }
         public int PublisherPhoto { get; set; }

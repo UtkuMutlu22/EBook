@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace EBook.Entities.DTOs
 {
-    public class BookDto
+    public class BookDetail:IDto
     {
         public int BookId { get; set; }
         public int Publisher { get; set; }
