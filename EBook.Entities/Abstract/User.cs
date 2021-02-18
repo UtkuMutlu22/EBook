@@ -5,13 +5,13 @@ using System.Text;
 
 namespace EBook.Entities.Abstract
 {
-    public class User:IEntity
+    public interface User 
     {
-        public int UserId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Mail { get; set; }
-        public string Password { get; set; }
-        public DateTime RegisterDate { get; set; }
+        int UserId { get; set; }
+        string FirstName { get; set; }
+        string LastName { get; set; }
+        string Mail { get; set; }
+        string Password { get; set; }
+        DateTime RegisterDate { get; set; }
     }
 }

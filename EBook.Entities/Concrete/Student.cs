@@ -13,7 +13,11 @@ namespace EBook.Entities.Concrete
         [Key]
         public int StudentId { get; set; }
         public int ConsulantTeacher { get; set; }
-
-
+        public int UserId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Mail { get; set; }
+        public string Password { get; set; }
+        public DateTime RegisterDate { get; set; }
     }
 }

@@ -15,7 +15,6 @@ namespace EBook.DataAccess
             optionsBuilder.UseSqlServer(@"Data Source=LAPTOP-IDCILMAT;Database=VirtualCourse;Integrated Security=True;");
         }
         public DbSet<Book> Books { get; set; }
-        public DbSet<User> Users { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Context> Contexts { get; set; }
@@ -29,6 +28,8 @@ namespace EBook.DataAccess
         public DbSet<Video> Videos { get; set; }
         public DbSet<Audio> Audios { get; set; }
         public DbSet<Picture> Pictures { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Publisher> Publishers { get; set; }
 
     }
 }
