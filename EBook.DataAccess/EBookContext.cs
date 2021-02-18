@@ -20,7 +20,7 @@ namespace EBook.DataAccess
         public DbSet<Context> Contexts { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
-        public DbSet<Cosulant> Consulants { get; set; }
+        public DbSet<Cosulant> Cosulants { get; set; }
         public DbSet<Answer> Answers { get; set; }
         public DbSet<Remak> Remaks { get; set; }
         public DbSet<Price> Prices { get; set; }
