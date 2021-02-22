@@ -31,23 +31,23 @@ namespace WebAPI
         {
             services.AddControllers();
 
-            services.AddSingleton<IBookDal,EfBookDal>();
-            services.AddSingleton<IBookService,BookManager>();
+            //services.AddSingleton<IBookDal,EfBookDal>();
+            //services.AddSingleton<IBookService,BookManager>();
 
-            services.AddSingleton<IClassesDal, EfClassesDal>();
-            services.AddSingleton<IClassesService, ClassesManager>();
+            //services.AddSingleton<IClassesDal, EfClassesDal>();
+            //services.AddSingleton<IClassesService, ClassesManager>();
 
-            services.AddSingleton<ITeacherDal, EfTeacherDal>();
-            services.AddSingleton<ITeacherService, TeacherManager>();
+            //services.AddSingleton<ITeacherDal, EfTeacherDal>();
+            //services.AddSingleton<ITeacherService, TeacherManager>();
 
-            services.AddSingleton<IQuestionDal, EfQuestionDal>();
-            services.AddSingleton<IQuestionService, QuestionManager>();
+            //services.AddSingleton<IQuestionDal, EfQuestionDal>();
+            //services.AddSingleton<IQuestionService, QuestionManager>();
 
-            services.AddSingleton<IStepDal, EfStepDal>();
-            services.AddSingleton<IStepService, StepManager>();
+            //services.AddSingleton<IStepDal, EfStepDal>();
+            //services.AddSingleton<IStepService, StepManager>();
 
-            services.AddSingleton<IStudentDal, EfStudentDal>();
-            services.AddSingleton<IStudentService, StudentManager>();
+            //services.AddSingleton<IStudentDal, EfStudentDal>();
+            //services.AddSingleton<IStudentService, StudentManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

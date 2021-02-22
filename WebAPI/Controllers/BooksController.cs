@@ -36,7 +36,7 @@ namespace WebAPI.Controllers
         [HttpGet("GetById")]
         public IActionResult GetById(int id)
         {
-            var result = _bookService.Get(id);
+            var result = _bookService.GetByBookId(id);
             if (result.Success)
             {
                 return Ok(result);

@@ -6443,6 +6443,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Autofac >= 6.1.0",
+      "Autofac.Extensions.DependencyInjection >= 7.1.0",
+      "Autofac.Extras.DynamicProxy >= 6.0.0",
       "EBook.DataAccess >= 1.0.0",
       "FluentValidation >= 9.5.1",
       "NETStandard.Library >= 2.0.3"
@@ -6499,6 +6502,18 @@
       "netstandard2.0": {
         "targetAlias": "netstandard2.0",
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.1.0, )"
+          },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
+          "Autofac.Extras.DynamicProxy": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[9.5.1, )"

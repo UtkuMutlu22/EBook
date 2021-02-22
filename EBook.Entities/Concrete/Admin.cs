@@ -9,6 +9,7 @@ namespace EBook.Entities.Concrete
     public class Admin : User, IEntity
     {
         public int UserId { get; set; }
+        public int TeacherId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Mail { get; set; }

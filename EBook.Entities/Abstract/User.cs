@@ -14,4 +14,6 @@ namespace EBook.Entities.Abstract
         string Password { get; set; }
         DateTime RegisterDate { get; set; }
     }
+        
+    
 }

@@ -30,6 +30,8 @@ namespace EBook.DataAccess
         public DbSet<Picture> Pictures { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Department> Departments { get; set; }
 
     }
 }

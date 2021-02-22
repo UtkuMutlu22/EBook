@@ -7,7 +7,7 @@ using System.Text;
 
 namespace EBook.DataAccess.Concrete.EntityFramework
 {
-    public class EFCityDal:EfEntityRepositoryBase<City,EBookContext>,ICityDal
+    public class EfCityDal:EfEntityRepositoryBase<City,EBookContext>,ICityDal
     {
     }
 }

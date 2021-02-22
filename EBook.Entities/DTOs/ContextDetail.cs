@@ -9,7 +9,7 @@ namespace EBook.Entities.DTOs
     {
         public string BookName { get; set; }
         public string PublisherName { get; set; }
-        public string BookTitle { get; set; }
+        public int BookTitle { get; set; }
         public string ContextText { get; set; }
         public string QuestionText { get; set; }
         public int QuestionAnswer { get; set; }

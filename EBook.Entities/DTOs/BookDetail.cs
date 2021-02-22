@@ -8,9 +8,9 @@ namespace EBook.Entities.DTOs
     public class BookDetail:IDto
     {
         public int BookId { get; set; }
-        public int Publisher { get; set; }
+        public string CategoryName { get; set; }
+        public string Publisher { get; set; }
         public string BookName { get; set; }
-        public string BookTitle { get; set; }
         public string Description { get; set; }
         public DateTime DateOfIssue { get; set; }
     }
